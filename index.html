@@ -10,6 +10,8 @@
 <body>
     <div class="row">
         <h1>The first page</h1>
+        <div id="message"></div>
+        <button id="login-button">SignIn</button>
     </div>
     <div class="row">
         <div class="outer-wrapper">
@@ -93,5 +95,23 @@
         <iframe src="http://ya.ru/index.php" width="560" height="315"></iframe>
     </div>
     </div>
+    <div id="signin-form">
+        <form>
+            <div class="row input-wrapper">
+                <label for="username">User name: </label>
+                <input id="username" name="username" type="text" placeholder="user" />
+            </div>
+            <div class="row input-wrapper">
+                <label for="userpassword">User password: </label>
+                <input id="userpassword" name="userpassword" type="password" placeholder="password" />
+            </div>
+            <div class="row button-wrapper">
+                <button formaction="#" class="signin-button">SigIn</button>
+                <button formaction="#" class="cancel-button">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <div id="js-table"></div>
+    <script src="action.js"></script>
 </body>
 </html>

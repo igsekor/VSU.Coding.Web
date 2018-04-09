@@ -1,0 +1,181 @@
+html {
+    margin: 0px;
+    padding: 1.5%;
+    width: 97%;
+}
+
+.row {
+    width: 97%;
+}
+
+.outer-wrapper {
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    float: left;
+    height: 400px;
+    margin: 1.5%;
+    padding: 1.5%;
+    width: 19.6%;
+}
+
+.outer-wrapper:first-child {
+    margin-left: 0px;
+}
+
+.outer-wrapper:last-child {
+    margin-right: 0px;
+}
+
+.outer-wrapper:before,
+.outer-wrapper:after {
+    display: none;
+}
+
+.chapters {
+    background-color: lemonchiffon;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-element {
+    display: block;
+    width: 100%;
+}
+
+.form-element input,
+.form-element span {
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-element input[type="submit"] {
+    text-transform: uppercase;
+    width: 90%;
+}
+
+.form-element input[type="text"] {
+    width: 80%;
+}
+
+table {
+    width: 100%;
+}
+
+img, iframe {
+    width: 100%;
+}
+
+h1 {
+    display: inline-block;
+}
+
+#message,
+#login-button {
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#message {
+    text-transform: none;
+}
+
+#signin-form {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0px;
+    top: 0px;
+}
+
+#signin-form form {
+    position: fixed;
+    width: 30vw;
+    margin-left: 35%;
+    margin-top: 30vh;
+    background-color: #fff;
+    border: 3px solid #666;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 10px;
+}
+
+#signin-form .input-wrapper label {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    text-align: right;
+}
+
+#signin-form .input-wrapper input {
+    display: inline-block;
+    width: 60%;
+    float: right;
+}
+
+#signin-form .button-wrapper {
+    text-align: right;
+    float: right;
+}
+
+#signin-form #username,
+#signin-form #userpassword,
+#signin-form .signin-button,
+#signin-form .cancel-button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#signin-form .signin-button,
+#signin-form .cancel-button {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+    .outer-wrapper {
+        width: 94%;
+    }
+
+    .outer-wrapper:first-child {
+        margin-left: 1.5%;
+    }
+
+    .outer-wrapper:last-child {
+        margin-right: 1.5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .outer-wrapper {
+        width: 43%;
+    }
+
+    .outer-wrapper:first-child {
+        margin-left: 1.5%;
+    }
+
+    .outer-wrapper:last-child {
+        margin-right: 1.5%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .outer-wrapper {
+        width: 26.6666666667%;
+    }
+
+    .outer-wrapper:first-child {
+        margin-left: 1.5%;
+    }
+
+    .outer-wrapper:last-child {
+        margin-right: 1.5%;
+    }
+}
